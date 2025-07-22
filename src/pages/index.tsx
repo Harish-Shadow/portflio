@@ -64,7 +64,7 @@ export default function ModernKarthikeyanPortfolio() {
     }
   }, [currentIndex, achievements.length]);
 
-  const goToSlide = (index) => {
+  const goToSlide = (index:any) => {
     setIsTransitioning(true);
     setCurrentIndex(index + 2);
   };
