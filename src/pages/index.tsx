@@ -203,21 +203,24 @@ export default function ModernKarthikeyanPortfolio() {
               </button>
             </div>
 
-            {/* Mobile-Optimized Stats */}
-            <div className="grid grid-cols-3 gap-3 sm:gap-6 lg:gap-8 text-center">
+            {/* Mobile-Optimized & Responsive Stats */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6 lg:gap-8 text-center">
               <div className="p-4 sm:p-6 bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-white/20">
                 <div className="text-2xl sm:text-3xl font-bold text-white">12+</div>
                 <div className="text-xs sm:text-sm text-gray-300 font-medium">Years Teaching</div>
               </div>
+
               <div className="p-4 sm:p-6 bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-white/20">
                 <div className="text-2xl sm:text-3xl font-bold text-white">₹494L</div>
                 <div className="text-xs sm:text-sm text-gray-300 font-medium">Research Grants</div>
               </div>
+
               <div className="p-4 sm:p-6 bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-white/20">
                 <div className="text-2xl sm:text-3xl font-bold text-white">25+</div>
                 <div className="text-xs sm:text-sm text-gray-300 font-medium">Publications</div>
               </div>
             </div>
+
           </div>
         </div>
 
